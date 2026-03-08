@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Route Optimization Panel</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+    <script src="js/map.js?v=9999" defer></script>
+    <script src="js/app.js" defer></script> 
+</head>
+
+<body>
+    <div class="container main-container">
+
+        <header class="page-header">
+            <div class="header-icon">
+                <i class="fa-solid fa-map-location-dot"></i>
+            </div>
+            <h2>Route Optimizer</h2>
+            <p>Dijkstra-based Smart Route and Cost Planner</p>
+        </header>
+
+        <main class="main-card">
+            <div class="main-card-body">
+                <div class="form-layout">
+                    <section class="left-column">
+                        <div class="section-title">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="outfit-font">Location Information</span>
+                        </div>
+
+                        <div class="custom-form-group">
+                            <label class="form-label" for="from">Starting City</label>
+                            <div class="input-wrapper">
+                                <i class="fa-regular fa-circle-play input-icon"></i>
+                                <input type="text" id="from" class="custom-input" placeholder="Ex: İstanbul" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="custom-form-group">
+                            <label class="form-label" for="via">Intermediate Stop <span class="text-muted fw-normal" style="font-size: 0.8em;">(Optional)</span></label>
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-map-pin input-icon"></i>
+                                <input type="text" id="via" class="custom-input" placeholder="Ex: İzmir" autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="custom-form-group">
+                            <label class="form-label" for="to">Destination City</label>
+                            <div class="input-wrapper">
+                                <i class="fa-regular fa-flag input-icon"></i>
+                                <input type="text" id="to" class="custom-input" placeholder="Ex: Ankara" autocomplete="off">
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="right-column">
+                        <div class="section-title">
+                            <i class="fa-solid fa-car"></i>
+                            <span class="outfit-font">Vehicle & Fuel</span>
+                        </div>
+
+                        <div class="custom-form-group">
+                            <label class="form-label" for="consumption">Average Consumption <span class="text-muted fw-normal" style="font-size: 0.8em;">(L/100km)</span></label>
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-gauge-high input-icon"></i>
+                                <input type="number" step="0.1" id="consumption" class="custom-input" placeholder="Ex: 6.5">
+                            </div>
+                        </div>
+
+                        <div class="custom-form-group">
+                            <label class="form-label" for="fuelPrice">Fuel Price <span class="text-muted fw-normal" style="font-size: 0.8em;">(Price/L)</span></label>
+                            <div class="input-wrapper">
+                                <i class="fa-solid fa-gas-pump input-icon"></i>
+                                <input type="number" step="0.1" id="fuelPrice" class="custom-input" placeholder="Ex: 42.5">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="mt-4 pt-2">
+                    <button id="calcBtn" class="btn-calculate">
+                        <span class="spinner-border text-white" role="status"></span>
+                        <i class="fa-solid fa-route icon-normal"></i>
+                        <span class="btn-text">Calculate Route</span>
+                        <span class="loading-text">Calculating...</span>
+                    </button>
+                </div>
+
+                <div id="result" class="result-container">
+                    <div class="result-header">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h4>The optimum route has been found</h4>
+                    </div>
+
+                    <div class="path-display" id="itinerary-container">
+                        </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon distance">
+                                <i class="fa-solid fa-road"></i>
+                            </div>
+                            <div class="stat-label">Total Distance</div>
+                            <div class="stat-value">
+                                <span id="dist">0</span><span class="stat-unit">km</span>
+                            </div>
+                        </div>
+
+                        <div class="stat-card">
+                            <div class="stat-icon cost">
+                                <i class="fa-solid fa-wallet"></i>
+                            </div>
+                            <div class="stat-label">Estimated Cost</div>
+                            <div class="stat-value">
+                                <span id="fuelResult">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div id="map" class="mt-4"></div>
+    </div>
+
+    <div class="toast-container position-fixed top-0 end-0 p-4">
+        <div id="errorToast" class="toast custom-toast border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex align-items-center p-2">
+                <i class="fa-solid fa-circle-exclamation text-danger fs-4 ms-2 me-3"></i>
+                <div class="toast-body fw-medium flex-grow-1" id="toastMessage" style="font-size: 0.95rem;">
+                    An error occurred.
+                </div>
+                <button type="button" class="btn-close me-2" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

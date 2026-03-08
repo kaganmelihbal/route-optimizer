@@ -1,0 +1,2230 @@
+[
+  {
+    "id": 1,
+    "name": "Adana",
+    "lat": 37.0,
+    "lng": 35.32133330,
+    "connections": [
+      {
+        "targetId": 31,
+        "distance": 198
+      },
+      {
+        "targetId": 33,
+        "distance": 70
+      },
+      {
+        "targetId": 38,
+        "distance": 335
+      },
+      {
+        "targetId": 51,
+        "distance": 207
+      },
+      {
+        "targetId": 46,
+        "distance": 199
+      },
+      {
+        "targetId": 80,
+        "distance": 91
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Adıyaman",
+    "lat": 37.76416670,
+    "lng": 38.27616670,
+    "connections": [
+      {
+        "targetId": 44,
+        "distance": 186
+      },
+      {
+        "targetId": 46,
+        "distance": 162
+      },
+      {
+        "targetId": 27,
+        "distance": 151
+      },
+      {
+        "targetId": 63,
+        "distance": 111
+      },
+      {
+        "targetId": 21,
+        "distance": 206
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Afyonkarahisar",
+    "lat": 38.76376000,
+    "lng": 30.54034000,
+    "connections": [
+      {
+        "targetId": 43,
+        "distance": 97
+      },
+      {
+        "targetId": 26,
+        "distance": 140
+      },
+      {
+        "targetId": 42,
+        "distance": 226
+      },
+      {
+        "targetId": 20,
+        "distance": 221
+      },
+      {
+        "targetId": 64,
+        "distance": 112
+      },
+      {
+        "targetId": 15,
+        "distance": 166
+      },
+      {
+        "targetId": 32,
+        "distance": 167
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ağrı",
+    "lat": 39.72166670,
+    "lng": 43.05666670,
+    "connections": [
+      {
+        "targetId": 76,
+        "distance": 144
+      },
+      {
+        "targetId": 36,
+        "distance": 214
+      },
+      {
+        "targetId": 12,
+        "distance": 359
+      },
+      {
+        "targetId": 49,
+        "distance": 246
+      },
+      {
+        "targetId": 13,
+        "distance": 237
+      },
+      {
+        "targetId": 65,
+        "distance": 233
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Amasya",
+    "lat": 40.65000000,
+    "lng": 35.83333330,
+    "connections": [
+      {
+        "targetId": 19,
+        "distance": 91
+      },
+      {
+        "targetId": 55,
+        "distance": 131
+      },
+      {
+        "targetId": 60,
+        "distance": 112
+      },
+      {
+        "targetId": 66,
+        "distance": 199
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Ankara",
+    "lat": 39.9334,
+    "lng": 32.8597,
+    "connections": [
+      {
+        "targetId": 68,
+        "distance": 224
+      },
+      {
+        "targetId": 40,
+        "distance": 183
+      },
+      {
+        "targetId": 71,
+        "distance": 74
+      },
+      {
+        "targetId": 18,
+        "distance": 131
+      },
+      {
+        "targetId": 14,
+        "distance": 190
+      },
+      {
+        "targetId": 26,
+        "distance": 233
+      },
+      {
+        "targetId": 42,
+        "distance": 259
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Antalya",
+    "lat": 36.88414000,
+    "lng": 30.70563000,
+    "connections": [
+      {
+        "targetId": 48,
+        "distance": 309
+      },
+      {
+        "targetId": 15,
+        "distance": 121
+      },
+      {
+        "targetId": 32,
+        "distance": 131
+      },
+      {
+        "targetId": 70,
+        "distance": 376
+      },
+      {
+        "targetId": 42,
+        "distance": 271
+      },
+      {
+        "targetId": 33,
+        "distance": 466
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Artvin",
+    "lat": 41.18333330,
+    "lng": 41.81666670,
+    "connections": [
+      {
+        "targetId": 53,
+        "distance": 148
+      },
+      {
+        "targetId": 25,
+        "distance": 194
+      },
+      {
+        "targetId": 75,
+        "distance": 117
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Aydın",
+    "lat": 37.84440000,
+    "lng": 27.84580000,
+    "connections": [
+      {
+        "targetId": 35,
+        "distance": 128
+      },
+      {
+        "targetId": 45,
+        "distance": 152
+      },
+      {
+        "targetId": 20,
+        "distance": 124
+      },
+      {
+        "targetId": 48,
+        "distance": 98
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Balıkesir",
+    "lat": 39.64836900,
+    "lng": 27.88261000,
+    "connections": [
+      {
+        "targetId": 17,
+        "distance": 192
+      },
+      {
+        "targetId": 16,
+        "distance": 152
+      },
+      {
+        "targetId": 43,
+        "distance": 227
+      },
+      {
+        "targetId": 45,
+        "distance": 138
+      },
+      {
+        "targetId": 35,
+        "distance": 175
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Bilecik",
+    "lat": 40.15013100,
+    "lng": 29.98306100,
+    "connections": [
+      {
+        "targetId": 16,
+        "distance": 95
+      },
+      {
+        "targetId": 54,
+        "distance": 100
+      },
+      {
+        "targetId": 14,
+        "distance": 215
+      },
+      {
+        "targetId": 26,
+        "distance": 80
+      },
+      {
+        "targetId": 43,
+        "distance": 110
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Bingöl",
+    "lat": 38.88534900,
+    "lng": 40.49829100,
+    "connections": [
+      {
+        "targetId": 25,
+        "distance": 177
+      },
+      {
+        "targetId": 24,
+        "distance": 272
+      },
+      {
+        "targetId": 62,
+        "distance": 145
+      },
+      {
+        "targetId": 23,
+        "distance": 141
+      },
+      {
+        "targetId": 21,
+        "distance": 141
+      },
+      {
+        "targetId": 49,
+        "distance": 111
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Bitlis",
+    "lat": 38.40000000,
+    "lng": 42.11666670,
+    "connections": [
+      {
+        "targetId": 49,
+        "distance": 81
+      },
+      {
+        "targetId": 4,
+        "distance": 237
+      },
+      {
+        "targetId": 65,
+        "distance": 159
+      },
+      {
+        "targetId": 56,
+        "distance": 96
+      },
+      {
+        "targetId": 72,
+        "distance": 133
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Bolu",
+    "lat": 40.73947900,
+    "lng": 31.61156100,
+    "connections": [
+      {
+        "targetId": 54,
+        "distance": 115
+      },
+      {
+        "targetId": 81,
+        "distance": 47
+      },
+      {
+        "targetId": 67,
+        "distance": 158
+      },
+      {
+        "targetId": 78,
+        "distance": 134
+      },
+      {
+        "targetId": 18,
+        "distance": 233
+      },
+      {
+        "targetId": 6,
+        "distance": 190
+      },
+      {
+        "targetId": 26,
+        "distance": 290
+      },
+      {
+        "targetId": 11,
+        "distance": 215
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Burdur",
+    "lat": 37.72690900,
+    "lng": 30.28887600,
+    "connections": [
+      {
+        "targetId": 7,
+        "distance": 121
+      },
+      {
+        "targetId": 48,
+        "distance": 240
+      },
+      {
+        "targetId": 20,
+        "distance": 167
+      },
+      {
+        "targetId": 3,
+        "distance": 166
+      },
+      {
+        "targetId": 32,
+        "distance": 29
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Bursa",
+    "lat": 40.18257000,
+    "lng": 29.06687000,
+    "connections": [
+      {
+        "targetId": 77,
+        "distance": 69
+      },
+      {
+        "targetId": 41,
+        "distance": 131
+      },
+      {
+        "targetId": 54,
+        "distance": 157
+      },
+      {
+        "targetId": 11,
+        "distance": 95
+      },
+      {
+        "targetId": 43,
+        "distance": 182
+      },
+      {
+        "targetId": 10,
+        "distance": 152
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Çanakkale",
+    "lat": 40.15531200,
+    "lng": 26.41416000,
+    "connections": [
+      {
+        "targetId": 22,
+        "distance": 231
+      },
+      {
+        "targetId": 59,
+        "distance": 181
+      },
+      {
+        "targetId": 10,
+        "distance": 192
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Çankırı",
+    "lat": 40.60000000,
+    "lng": 33.61666670,
+    "connections": [
+      {
+        "targetId": 78,
+        "distance": 192
+      },
+      {
+        "targetId": 14,
+        "distance": 233
+      },
+      {
+        "targetId": 6,
+        "distance": 131
+      },
+      {
+        "targetId": 71,
+        "distance": 104
+      },
+      {
+        "targetId": 19,
+        "distance": 155
+      },
+      {
+        "targetId": 37,
+        "distance": 106
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Çorum",
+    "lat": 40.55055560,
+    "lng": 34.95555560,
+    "connections": [
+      {
+        "targetId": 66,
+        "distance": 108
+      },
+      {
+        "targetId": 71,
+        "distance": 169
+      },
+      {
+        "targetId": 18,
+        "distance": 155
+      },
+      {
+        "targetId": 37,
+        "distance": 192
+      },
+      {
+        "targetId": 57,
+        "distance": 260
+      },
+      {
+        "targetId": 55,
+        "distance": 172
+      },
+      {
+        "targetId": 5,
+        "distance": 91
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Denizli",
+    "lat": 37.77652000,
+    "lng": 29.08639000,
+    "connections": [
+      {
+        "targetId": 3,
+        "distance": 221
+      },
+      {
+        "targetId": 64,
+        "distance": 153
+      },
+      {
+        "targetId": 45,
+        "distance": 206
+      },
+      {
+        "targetId": 9,
+        "distance": 124
+      },
+      {
+        "targetId": 48,
+        "distance": 150
+      },
+      {
+        "targetId": 15,
+        "distance": 167
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Diyarbakır",
+    "lat": 37.91441000,
+    "lng": 40.23062900,
+    "connections": [
+      {
+        "targetId": 72,
+        "distance": 99
+      },
+      {
+        "targetId": 47,
+        "distance": 94
+      },
+      {
+        "targetId": 63,
+        "distance": 177
+      },
+      {
+        "targetId": 2,
+        "distance": 206
+      },
+      {
+        "targetId": 44,
+        "distance": 246
+      },
+      {
+        "targetId": 23,
+        "distance": 152
+      },
+      {
+        "targetId": 12,
+        "distance": 141
+      },
+      {
+        "targetId": 49,
+        "distance": 249
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Edirne",
+    "lat": 41.66666670,
+    "lng": 26.56666670,
+    "connections": [
+      {
+        "targetId": 39,
+        "distance": 70
+      },
+      {
+        "targetId": 59,
+        "distance": 148
+      },
+      {
+        "targetId": 17,
+        "distance": 231
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Elazığ",
+    "lat": 38.68096900,
+    "lng": 39.22639800,
+    "connections": [
+      {
+        "targetId": 62,
+        "distance": 140
+      },
+      {
+        "targetId": 44,
+        "distance": 97
+      },
+      {
+        "targetId": 21,
+        "distance": 152
+      },
+      {
+        "targetId": 12,
+        "distance": 141
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Erzincan",
+    "lat": 39.75000000,
+    "lng": 39.50000000,
+    "connections": [
+      {
+        "targetId": 62,
+        "distance": 128
+      },
+      {
+        "targetId": 44,
+        "distance": 361
+      },
+      {
+        "targetId": 58,
+        "distance": 253
+      },
+      {
+        "targetId": 28,
+        "distance": 295
+      },
+      {
+        "targetId": 29,
+        "distance": 136
+      },
+      {
+        "targetId": 69,
+        "distance": 157
+      },
+      {
+        "targetId": 25,
+        "distance": 191
+      },
+      {
+        "targetId": 12,
+        "distance": 272
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Erzurum",
+    "lat": 39.90431890,
+    "lng": 41.26788530,
+    "connections": [
+      {
+        "targetId": 4,
+        "distance": 182
+      },
+      {
+        "targetId": 49,
+        "distance": 270
+      },
+      {
+        "targetId": 12,
+        "distance": 177
+      },
+      {
+        "targetId": 24,
+        "distance": 191
+      },
+      {
+        "targetId": 69,
+        "distance": 125
+      },
+      {
+        "targetId": 53,
+        "distance": 249
+      },
+      {
+        "targetId": 8,
+        "distance": 194
+      },
+      {
+        "targetId": 75,
+        "distance": 230
+      },
+      {
+        "targetId": 36,
+        "distance": 205
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Eskişehir",
+    "lat": 39.78430200,
+    "lng": 30.51922000,
+    "connections": [
+      {
+        "targetId": 3,
+        "distance": 140
+      },
+      {
+        "targetId": 43,
+        "distance": 79
+      },
+      {
+        "targetId": 11,
+        "distance": 80
+      },
+      {
+        "targetId": 14,
+        "distance": 290
+      },
+      {
+        "targetId": 6,
+        "distance": 233
+      },
+      {
+        "targetId": 42,
+        "distance": 337
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Gaziantep",
+    "lat": 37.06622000,
+    "lng": 37.38332000,
+    "connections": [
+      {
+        "targetId": 79,
+        "distance": 63
+      },
+      {
+        "targetId": 31,
+        "distance": 194
+      },
+      {
+        "targetId": 80,
+        "distance": 123
+      },
+      {
+        "targetId": 46,
+        "distance": 78
+      },
+      {
+        "targetId": 2,
+        "distance": 151
+      },
+      {
+        "targetId": 63,
+        "distance": 139
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Giresun",
+    "lat": 40.91281100,
+    "lng": 38.38953000,
+    "connections": [
+      {
+        "targetId": 52,
+        "distance": 45
+      },
+      {
+        "targetId": 58,
+        "distance": 296
+      },
+      {
+        "targetId": 24,
+        "distance": 295
+      },
+      {
+        "targetId": 29,
+        "distance": 160
+      },
+      {
+        "targetId": 61,
+        "distance": 130
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Gümüşhane",
+    "lat": 40.46027780,
+    "lng": 39.48138890,
+    "connections": [
+      {
+        "targetId": 28,
+        "distance": 160
+      },
+      {
+        "targetId": 61,
+        "distance": 94
+      },
+      {
+        "targetId": 69,
+        "distance": 76
+      },
+      {
+        "targetId": 24,
+        "distance": 136
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Hakkari",
+    "lat": 37.58333330,
+    "lng": 43.73333330,
+    "connections": [
+      {
+        "targetId": 73,
+        "distance": 180
+      },
+      {
+        "targetId": 65,
+        "distance": 197
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Hatay",
+    "lat": 36.40184880,
+    "lng": 36.34980970,
+    "connections": [
+      {
+        "targetId": 1,
+        "distance": 198
+      },
+      {
+        "targetId": 80,
+        "distance": 127
+      },
+      {
+        "targetId": 27,
+        "distance": 194
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Isparta",
+    "lat": 37.76666670,
+    "lng": 30.55000000,
+    "connections": [
+      {
+        "targetId": 15,
+        "distance": 29
+      },
+      {
+        "targetId": 3,
+        "distance": 167
+      },
+      {
+        "targetId": 42,
+        "distance": 266
+      },
+      {
+        "targetId": 7,
+        "distance": 131
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Mersin",
+    "lat": 36.80000000,
+    "lng": 34.63333330,
+    "connections": [
+      {
+        "targetId": 1,
+        "distance": 70
+      },
+      {
+        "targetId": 7,
+        "distance": 466
+      },
+      {
+        "targetId": 70,
+        "distance": 233
+      },
+      {
+        "targetId": 42,
+        "distance": 350
+      },
+      {
+        "targetId": 51,
+        "distance": 200
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "İstanbul",
+    "lat": 41.0082,
+    "lng": 28.9784,
+    "connections": [
+      {
+        "targetId": 59,
+        "distance": 131
+      },
+      {
+        "targetId": 41,
+        "distance": 113
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "İzmir",
+    "lat": 38.4237,
+    "lng": 27.1428,
+    "connections": [
+      {
+        "targetId": 10,
+        "distance": 175
+      },
+      {
+        "targetId": 45,
+        "distance": 37
+      },
+      {
+        "targetId": 9,
+        "distance": 128
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Kars",
+    "lat": 40.59267000,
+    "lng": 43.07783100,
+    "connections": [
+      {
+        "targetId": 75,
+        "distance": 89
+      },
+      {
+        "targetId": 25,
+        "distance": 205
+      },
+      {
+        "targetId": 4,
+        "distance": 214
+      },
+      {
+        "targetId": 76,
+        "distance": 135
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Kastamonu",
+    "lat": 41.38871000,
+    "lng": 33.78273000,
+    "connections": [
+      {
+        "targetId": 74,
+        "distance": 181
+      },
+      {
+        "targetId": 78,
+        "distance": 113
+      },
+      {
+        "targetId": 18,
+        "distance": 106
+      },
+      {
+        "targetId": 19,
+        "distance": 192
+      },
+      {
+        "targetId": 57,
+        "distance": 179
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Kayseri",
+    "lat": 38.73333330,
+    "lng": 35.48333330,
+    "connections": [
+      {
+        "targetId": 1,
+        "distance": 335
+      },
+      {
+        "targetId": 51,
+        "distance": 128
+      },
+      {
+        "targetId": 50,
+        "distance": 79
+      },
+      {
+        "targetId": 66,
+        "distance": 197
+      },
+      {
+        "targetId": 58,
+        "distance": 202
+      },
+      {
+        "targetId": 46,
+        "distance": 254
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Kırklareli",
+    "lat": 41.73333330,
+    "lng": 27.21666670,
+    "connections": [
+      {
+        "targetId": 22,
+        "distance": 70
+      },
+      {
+        "targetId": 59,
+        "distance": 124
+      },
+      {
+        "targetId": 34,
+        "distance": 209
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Kırşehir",
+    "lat": 39.15000000,
+    "lng": 34.16666670,
+    "connections": [
+      {
+        "targetId": 6,
+        "distance": 183
+      },
+      {
+        "targetId": 71,
+        "distance": 109
+      },
+      {
+        "targetId": 66,
+        "distance": 113
+      },
+      {
+        "targetId": 50,
+        "distance": 92
+      },
+      {
+        "targetId": 68,
+        "distance": 108
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Kocaeli",
+    "lat": 40.85327040,
+    "lng": 29.88152030,
+    "connections": [
+      {
+        "targetId": 34,
+        "distance": 113
+      },
+      {
+        "targetId": 77,
+        "distance": 65
+      },
+      {
+        "targetId": 16,
+        "distance": 131
+      },
+      {
+        "targetId": 54,
+        "distance": 37
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Konya",
+    "lat": 37.86666670,
+    "lng": 32.48333330,
+    "connections": [
+      {
+        "targetId": 70,
+        "distance": 118
+      },
+      {
+        "targetId": 7,
+        "distance": 271
+      },
+      {
+        "targetId": 32,
+        "distance": 266
+      },
+      {
+        "targetId": 3,
+        "distance": 226
+      },
+      {
+        "targetId": 26,
+        "distance": 337
+      },
+      {
+        "targetId": 6,
+        "distance": 259
+      },
+      {
+        "targetId": 68,
+        "distance": 147
+      },
+      {
+        "targetId": 51,
+        "distance": 240
+      },
+      {
+        "targetId": 33,
+        "distance": 350
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Kütahya",
+    "lat": 39.41666670,
+    "lng": 29.98333330,
+    "connections": [
+      {
+        "targetId": 64,
+        "distance": 138
+      },
+      {
+        "targetId": 45,
+        "distance": 314
+      },
+      {
+        "targetId": 10,
+        "distance": 227
+      },
+      {
+        "targetId": 16,
+        "distance": 182
+      },
+      {
+        "targetId": 11,
+        "distance": 110
+      },
+      {
+        "targetId": 26,
+        "distance": 79
+      },
+      {
+        "targetId": 3,
+        "distance": 97
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Malatya",
+    "lat": 38.35519000,
+    "lng": 38.30946000,
+    "connections": [
+      {
+        "targetId": 2,
+        "distance": 186
+      },
+      {
+        "targetId": 46,
+        "distance": 222
+      },
+      {
+        "targetId": 58,
+        "distance": 244
+      },
+      {
+        "targetId": 24,
+        "distance": 361
+      },
+      {
+        "targetId": 23,
+        "distance": 97
+      },
+      {
+        "targetId": 21,
+        "distance": 246
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Manisa",
+    "lat": 38.61909900,
+    "lng": 27.42892100,
+    "connections": [
+      {
+        "targetId": 35,
+        "distance": 37
+      },
+      {
+        "targetId": 9,
+        "distance": 152
+      },
+      {
+        "targetId": 20,
+        "distance": 206
+      },
+      {
+        "targetId": 64,
+        "distance": 195
+      },
+      {
+        "targetId": 43,
+        "distance": 314
+      },
+      {
+        "targetId": 10,
+        "distance": 138
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Kahramanmaraş",
+    "lat": 37.58333330,
+    "lng": 36.93333330,
+    "connections": [
+      {
+        "targetId": 27,
+        "distance": 78
+      },
+      {
+        "targetId": 80,
+        "distance": 105
+      },
+      {
+        "targetId": 1,
+        "distance": 199
+      },
+      {
+        "targetId": 38,
+        "distance": 254
+      },
+      {
+        "targetId": 58,
+        "distance": 326
+      },
+      {
+        "targetId": 44,
+        "distance": 222
+      },
+      {
+        "targetId": 2,
+        "distance": 162
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Mardin",
+    "lat": 37.31223610,
+    "lng": 40.73511200,
+    "connections": [
+      {
+        "targetId": 63,
+        "distance": 188
+      },
+      {
+        "targetId": 21,
+        "distance": 94
+      },
+      {
+        "targetId": 72,
+        "distance": 148
+      },
+      {
+        "targetId": 56,
+        "distance": 235
+      },
+      {
+        "targetId": 73,
+        "distance": 198
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Muğla",
+    "lat": 37.21527780,
+    "lng": 28.36361110,
+    "connections": [
+      {
+        "targetId": 9,
+        "distance": 98
+      },
+      {
+        "targetId": 20,
+        "distance": 150
+      },
+      {
+        "targetId": 15,
+        "distance": 240
+      },
+      {
+        "targetId": 7,
+        "distance": 309
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Muş",
+    "lat": 38.74329260,
+    "lng": 41.50648230,
+    "connections": [
+      {
+        "targetId": 13,
+        "distance": 81
+      },
+      {
+        "targetId": 72,
+        "distance": 214
+      },
+      {
+        "targetId": 21,
+        "distance": 249
+      },
+      {
+        "targetId": 12,
+        "distance": 111
+      },
+      {
+        "targetId": 25,
+        "distance": 270
+      },
+      {
+        "targetId": 4,
+        "distance": 246
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Nevşehir",
+    "lat": 38.62442000,
+    "lng": 34.72396900,
+    "connections": [
+      {
+        "targetId": 51,
+        "distance": 80
+      },
+      {
+        "targetId": 68,
+        "distance": 76
+      },
+      {
+        "targetId": 40,
+        "distance": 92
+      },
+      {
+        "targetId": 66,
+        "distance": 205
+      },
+      {
+        "targetId": 38,
+        "distance": 79
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Niğde",
+    "lat": 37.96666670,
+    "lng": 34.68333330,
+    "connections": [
+      {
+        "targetId": 33,
+        "distance": 200
+      },
+      {
+        "targetId": 1,
+        "distance": 207
+      },
+      {
+        "targetId": 38,
+        "distance": 128
+      },
+      {
+        "targetId": 50,
+        "distance": 80
+      },
+      {
+        "targetId": 68,
+        "distance": 113
+      },
+      {
+        "targetId": 42,
+        "distance": 240
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Ordu",
+    "lat": 40.98333330,
+    "lng": 37.88333330,
+    "connections": [
+      {
+        "targetId": 55,
+        "distance": 147
+      },
+      {
+        "targetId": 60,
+        "distance": 215
+      },
+      {
+        "targetId": 58,
+        "distance": 307
+      },
+      {
+        "targetId": 28,
+        "distance": 45
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Rize",
+    "lat": 41.02005000,
+    "lng": 40.52344900,
+    "connections": [
+      {
+        "targetId": 61,
+        "distance": 79
+      },
+      {
+        "targetId": 69,
+        "distance": 239
+      },
+      {
+        "targetId": 25,
+        "distance": 249
+      },
+      {
+        "targetId": 8,
+        "distance": 148
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Sakarya",
+    "lat": 40.75687930,
+    "lng": 30.37813800,
+    "connections": [
+      {
+        "targetId": 41,
+        "distance": 37
+      },
+      {
+        "targetId": 16,
+        "distance": 157
+      },
+      {
+        "targetId": 11,
+        "distance": 100
+      },
+      {
+        "targetId": 14,
+        "distance": 115
+      },
+      {
+        "targetId": 81,
+        "distance": 68
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Samsun",
+    "lat": 41.29278200,
+    "lng": 36.33128000,
+    "connections": [
+      {
+        "targetId": 57,
+        "distance": 161
+      },
+      {
+        "targetId": 19,
+        "distance": 172
+      },
+      {
+        "targetId": 5,
+        "distance": 131
+      },
+      {
+        "targetId": 60,
+        "distance": 241
+      },
+      {
+        "targetId": 52,
+        "distance": 147
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Siirt",
+    "lat": 37.94429000,
+    "lng": 41.93288000,
+    "connections": [
+      {
+        "targetId": 13,
+        "distance": 96
+      },
+      {
+        "targetId": 72,
+        "distance": 87
+      },
+      {
+        "targetId": 47,
+        "distance": 235
+      },
+      {
+        "targetId": 73,
+        "distance": 100
+      },
+      {
+        "targetId": 65,
+        "distance": 255
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Sinop",
+    "lat": 42.02642220,
+    "lng": 35.15507450,
+    "connections": [
+      {
+        "targetId": 37,
+        "distance": 179
+      },
+      {
+        "targetId": 19,
+        "distance": 260
+      },
+      {
+        "targetId": 55,
+        "distance": 161
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Sivas",
+    "lat": 39.74766200,
+    "lng": 37.01787900,
+    "connections": [
+      {
+        "targetId": 28,
+        "distance": 296
+      },
+      {
+        "targetId": 52,
+        "distance": 307
+      },
+      {
+        "targetId": 60,
+        "distance": 111
+      },
+      {
+        "targetId": 66,
+        "distance": 228
+      },
+      {
+        "targetId": 38,
+        "distance": 202
+      },
+      {
+        "targetId": 46,
+        "distance": 326
+      },
+      {
+        "targetId": 44,
+        "distance": 244
+      },
+      {
+        "targetId": 24,
+        "distance": 253
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Tekirdağ",
+    "lat": 40.98333330,
+    "lng": 27.51666670,
+    "connections": [
+      {
+        "targetId": 39,
+        "distance": 124
+      },
+      {
+        "targetId": 22,
+        "distance": 148
+      },
+      {
+        "targetId": 17,
+        "distance": 181
+      },
+      {
+        "targetId": 34,
+        "distance": 131
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Tokat",
+    "lat": 40.31666670,
+    "lng": 36.55000000,
+    "connections": [
+      {
+        "targetId": 52,
+        "distance": 215
+      },
+      {
+        "targetId": 55,
+        "distance": 241
+      },
+      {
+        "targetId": 5,
+        "distance": 112
+      },
+      {
+        "targetId": 66,
+        "distance": 219
+      },
+      {
+        "targetId": 58,
+        "distance": 111
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Trabzon",
+    "lat": 41.00000000,
+    "lng": 39.73333330,
+    "connections": [
+      {
+        "targetId": 28,
+        "distance": 130
+      },
+      {
+        "targetId": 29,
+        "distance": 94
+      },
+      {
+        "targetId": 69,
+        "distance": 169
+      },
+      {
+        "targetId": 53,
+        "distance": 79
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Tunceli",
+    "lat": 39.10798680,
+    "lng": 39.54016720,
+    "connections": [
+      {
+        "targetId": 24,
+        "distance": 128
+      },
+      {
+        "targetId": 12,
+        "distance": 145
+      },
+      {
+        "targetId": 23,
+        "distance": 140
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Şanlıurfa",
+    "lat": 37.15000000,
+    "lng": 38.80000000,
+    "connections": [
+      {
+        "targetId": 27,
+        "distance": 139
+      },
+      {
+        "targetId": 2,
+        "distance": 111
+      },
+      {
+        "targetId": 21,
+        "distance": 177
+      },
+      {
+        "targetId": 47,
+        "distance": 188
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Uşak",
+    "lat": 38.68230100,
+    "lng": 29.40819000,
+    "connections": [
+      {
+        "targetId": 20,
+        "distance": 153
+      },
+      {
+        "targetId": 45,
+        "distance": 195
+      },
+      {
+        "targetId": 43,
+        "distance": 138
+      },
+      {
+        "targetId": 3,
+        "distance": 112
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Van",
+    "lat": 38.49416670,
+    "lng": 43.38000000,
+    "connections": [
+      {
+        "targetId": 30,
+        "distance": 197
+      },
+      {
+        "targetId": 73,
+        "distance": 351
+      },
+      {
+        "targetId": 56,
+        "distance": 255
+      },
+      {
+        "targetId": 13,
+        "distance": 159
+      },
+      {
+        "targetId": 4,
+        "distance": 233
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Yozgat",
+    "lat": 39.82000000,
+    "lng": 34.80444440,
+    "connections": [
+      {
+        "targetId": 19,
+        "distance": 108
+      },
+      {
+        "targetId": 71,
+        "distance": 143
+      },
+      {
+        "targetId": 40,
+        "distance": 113
+      },
+      {
+        "targetId": 50,
+        "distance": 205
+      },
+      {
+        "targetId": 38,
+        "distance": 197
+      },
+      {
+        "targetId": 58,
+        "distance": 228
+      },
+      {
+        "targetId": 60,
+        "distance": 219
+      },
+      {
+        "targetId": 5,
+        "distance": 199
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Zonguldak",
+    "lat": 41.45640900,
+    "lng": 31.79873100,
+    "connections": [
+      {
+        "targetId": 81,
+        "distance": 113
+      },
+      {
+        "targetId": 14,
+        "distance": 158
+      },
+      {
+        "targetId": 78,
+        "distance": 101
+      },
+      {
+        "targetId": 74,
+        "distance": 88
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Aksaray",
+    "lat": 38.36869000,
+    "lng": 34.03698000,
+    "connections": [
+      {
+        "targetId": 6,
+        "distance": 224
+      },
+      {
+        "targetId": 42,
+        "distance": 147
+      },
+      {
+        "targetId": 51,
+        "distance": 113
+      },
+      {
+        "targetId": 50,
+        "distance": 76
+      },
+      {
+        "targetId": 40,
+        "distance": 108
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Bayburt",
+    "lat": 40.25516900,
+    "lng": 40.22488000,
+    "connections": [
+      {
+        "targetId": 61,
+        "distance": 169
+      },
+      {
+        "targetId": 29,
+        "distance": 76
+      },
+      {
+        "targetId": 24,
+        "distance": 157
+      },
+      {
+        "targetId": 25,
+        "distance": 125
+      },
+      {
+        "targetId": 53,
+        "distance": 239
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Karaman",
+    "lat": 37.17593000,
+    "lng": 33.22874800,
+    "connections": [
+      {
+        "targetId": 42,
+        "distance": 118
+      },
+      {
+        "targetId": 7,
+        "distance": 376
+      },
+      {
+        "targetId": 33,
+        "distance": 233
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Kırıkkale",
+    "lat": 39.84682100,
+    "lng": 33.51525100,
+    "connections": [
+      {
+        "targetId": 6,
+        "distance": 74
+      },
+      {
+        "targetId": 40,
+        "distance": 109
+      },
+      {
+        "targetId": 66,
+        "distance": 143
+      },
+      {
+        "targetId": 19,
+        "distance": 169
+      },
+      {
+        "targetId": 18,
+        "distance": 104
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Batman",
+    "lat": 37.88116800,
+    "lng": 41.13509000,
+    "connections": [
+      {
+        "targetId": 21,
+        "distance": 99
+      },
+      {
+        "targetId": 47,
+        "distance": 148
+      },
+      {
+        "targetId": 56,
+        "distance": 87
+      },
+      {
+        "targetId": 13,
+        "distance": 133
+      },
+      {
+        "targetId": 49,
+        "distance": 214
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Şırnak",
+    "lat": 37.51638890,
+    "lng": 42.46111110,
+    "connections": [
+      {
+        "targetId": 47,
+        "distance": 198
+      },
+      {
+        "targetId": 56,
+        "distance": 100
+      },
+      {
+        "targetId": 65,
+        "distance": 351
+      },
+      {
+        "targetId": 30,
+        "distance": 180
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Bartın",
+    "lat": 41.63444440,
+    "lng": 32.33750000,
+    "connections": [
+      {
+        "targetId": 67,
+        "distance": 88
+      },
+      {
+        "targetId": 78,
+        "distance": 86
+      },
+      {
+        "targetId": 37,
+        "distance": 181
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Ardahan",
+    "lat": 41.11048100,
+    "lng": 42.70217100,
+    "connections": [
+      {
+        "targetId": 8,
+        "distance": 117
+      },
+      {
+        "targetId": 25,
+        "distance": 230
+      },
+      {
+        "targetId": 36,
+        "distance": 89
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Iğdır",
+    "lat": 39.91666670,
+    "lng": 44.03333330,
+    "connections": [
+      {
+        "targetId": 36,
+        "distance": 135
+      },
+      {
+        "targetId": 4,
+        "distance": 144
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Yalova",
+    "lat": 40.65000000,
+    "lng": 29.26666670,
+    "connections": [
+      {
+        "targetId": 41,
+        "distance": 65
+      },
+      {
+        "targetId": 16,
+        "distance": 69
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Karabük",
+    "lat": 41.20000000,
+    "lng": 32.63333330,
+    "connections": [
+      {
+        "targetId": 74,
+        "distance": 86
+      },
+      {
+        "targetId": 67,
+        "distance": 101
+      },
+      {
+        "targetId": 14,
+        "distance": 134
+      },
+      {
+        "targetId": 18,
+        "distance": 192
+      },
+      {
+        "targetId": 37,
+        "distance": 113
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Kilis",
+    "lat": 36.71839900,
+    "lng": 37.12122000,
+    "connections": [
+      {
+        "targetId": 27,
+        "distance": 63
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Osmaniye",
+    "lat": 37.06805000,
+    "lng": 36.26158900,
+    "connections": [
+      {
+        "targetId": 1,
+        "distance": 91
+      },
+      {
+        "targetId": 31,
+        "distance": 127
+      },
+      {
+        "targetId": 27,
+        "distance": 123
+      },
+      {
+        "targetId": 46,
+        "distance": 105
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Düzce",
+    "lat": 40.84384900,
+    "lng": 31.15654000,
+    "connections": [
+      {
+        "targetId": 54,
+        "distance": 68
+      },
+      {
+        "targetId": 14,
+        "distance": 47
+      },
+      {
+        "targetId": 67,
+        "distance": 113
+      }
+    ]
+  }
+]

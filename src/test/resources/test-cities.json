@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Adana",
+    "lat": 37.0,
+    "lng": 35.3213,
+    "connections": [
+      { "targetId": 33, "distance": 70 },
+      { "targetId": 80, "distance": 91 },
+      { "targetId": 46, "distance": 199 }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Mersin",
+    "lat": 36.8,
+    "lng": 34.6333,
+    "connections": [
+      { "targetId": 1, "distance": 70 },
+      { "targetId": 51, "distance": 200 }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Niğde",
+    "lat": 37.9667,
+    "lng": 34.6833,
+    "connections": [
+      { "targetId": 33, "distance": 200 },
+      { "targetId": 38, "distance": 128 },
+      { "targetId": 50, "distance": 80 }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Kayseri",
+    "lat": 38.7333,
+    "lng": 35.4833,
+    "connections": [
+      { "targetId": 51, "distance": 128 },
+      { "targetId": 46, "distance": 254 }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Kahramanmaraş",
+    "lat": 37.5833,
+    "lng": 36.9333,
+    "connections": [
+      { "targetId": 1, "distance": 199 },
+      { "targetId": 38, "distance": 254 },
+      { "targetId": 80, "distance": 105 }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Osmaniye",
+    "lat": 37.0681,
+    "lng": 36.2616,
+    "connections": [
+      { "targetId": 1, "distance": 91 },
+      { "targetId": 46, "distance": 105 }
+    ]
+  }
+]
